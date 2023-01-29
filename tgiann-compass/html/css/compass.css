@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.compassui {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    width: 40vh;
+    z-index: 1000;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 2vh;
+    display: none;
+}
+
+.compass {
+    top: 1.4vh;
+    position: relative;
+    font-size: 1.5vh;
+    color: rgba(255,255,255, 1);
+}
+
+.compass-bar {
+    margin: 0 auto;
+    position: relative;
+    font-weight:500;
+    color:rgba(255,255,255, 1);
+}
+
+#compass1, #compass2 {
+    display: block;
+    width:100%;
+    height: 20px;
+    font-size: 4pt;
+    font-weight: 700;
+    transform: scale(1);
+}
+
+#compass2 {
+    font-family: Verdana;
+}
+
+.compas-line {
+    font-size: 14pt;
+    color: white;
+    filter: drop-shadow(0.1vh 0.1vh 0px rgb(1 1 1));
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;
+}
