@@ -27,3 +27,11 @@ function showCompas()
     end
     SendNUIMessage({action = "close"})
 end
+
+RegisterCommand("compass", function()
+    if compassOn then
+        compassOn = false
+    else
+        showCompas()
+    end
+end)
